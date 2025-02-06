@@ -5,9 +5,9 @@
   tasks:
     - name: Building Docker Image
       docker_image:
-         name: team4-jalapeno:latest #docker image name
+         name: 66026000-nextJS:latest #docker image name
          source: build
          build:
-            path: ~/team4-jalapeno #path ที่เก็บไฟล์ sourcecode 
+            path: ~/66026000-nextJS #path ที่เก็บไฟล์ sourcecode 
          state: present
          force_source: true
